@@ -11,13 +11,24 @@ class LanguageLearnignApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+          backgroundColor: Color(0xf0f0f0),
           title: Text(
             "Language learning app",
             style: TextStyle(color: const Color.fromARGB(255, 255, 255, 255)),
           ),
         ),
         backgroundColor: Colors.amber,
+        body: Column(children: [
+          Container(
+            color: Color(0xffFF90BC),
+            height: 50,
+            width: double.infinity,
+            child: Text(
+              'Numbers',
+              style: TextStyle(color: Color(0xffffffff)),
+            ),
+          )
+        ]),
       ),
     );
   }
