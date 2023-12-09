@@ -10,6 +10,13 @@ class LanguageLearnignApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+          title: Text(
+            "Language learning app",
+            style: TextStyle(color: const Color.fromARGB(255, 255, 255, 255)),
+          ),
+        ),
         backgroundColor: Colors.amber,
       ),
     );
