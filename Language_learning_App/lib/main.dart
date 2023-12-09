@@ -20,12 +20,14 @@ class LanguageLearnignApp extends StatelessWidget {
         backgroundColor: Colors.amber,
         body: Column(children: [
           Container(
+            padding: EdgeInsets.only(left: 24),
+            alignment: Alignment.centerLeft,
             color: Color(0xffFF90BC),
             height: 50,
             width: double.infinity,
             child: Text(
               'Numbers',
-              style: TextStyle(color: Color(0xffffffff)),
+              style: TextStyle(color: Color(0xffffffff), fontSize: 18),
             ),
           )
         ]),
